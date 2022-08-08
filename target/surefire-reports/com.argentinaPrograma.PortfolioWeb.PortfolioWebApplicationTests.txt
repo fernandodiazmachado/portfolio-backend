@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.argentinaPrograma.PortfolioWeb.PortfolioWebApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.456 s - in com.argentinaPrograma.PortfolioWeb.PortfolioWebApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.902 s - in com.argentinaPrograma.PortfolioWeb.PortfolioWebApplicationTests
