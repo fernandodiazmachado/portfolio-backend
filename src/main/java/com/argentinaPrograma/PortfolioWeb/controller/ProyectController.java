@@ -5,6 +5,7 @@ import com.argentinaPrograma.PortfolioWeb.model.Proyect;
 import com.argentinaPrograma.PortfolioWeb.service.IProyect;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyect")
+@CrossOrigin(origins={"http://localhost:4200"})
 public class ProyectController {
 
     @Autowired
