@@ -13,23 +13,25 @@ import lombok.Setter;
 public class Proyect {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_proyect;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String name;
-    private String target;
-    private String id;
     private String description;
     private String link;
+    private String img;
+    private String img_alt;
 
     
     public Proyect(){}; 
 
-    public Proyect(Long id_proyect, String name, String target, String id, String description, String link) {
-        this.id_proyect = id_proyect;
-        this.name = name;
-        this.target = target;
+    public Proyect(Long id, String name, String description, String link, String img, String img_alt) {
         this.id = id;
+        this.name = name;
         this.description = description;
         this.link = link;
+        this.img = img;
+        this.img_alt = img_alt;
     }
+
+    
 }

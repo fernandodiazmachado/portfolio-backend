@@ -29,10 +29,10 @@ public class ProyectService implements IProyect {
         Proyect proyectOriginal = buscarProyect(id);
         if(proyectOriginal!=null){
             proyectOriginal.setName(proyect.getName());
-            proyectOriginal.setTarget(proyect.getTarget());
-            proyectOriginal.setId(proyect.getId());
             proyectOriginal.setDescription(proyect.getDescription());
             proyectOriginal.setLink(proyect.getLink());
+            proyectOriginal.setImg(proyect.getImg());
+            proyectOriginal.setImg_alt(proyect.getImg_alt());
             proyectRepository.save(proyectOriginal);
         }
     }
