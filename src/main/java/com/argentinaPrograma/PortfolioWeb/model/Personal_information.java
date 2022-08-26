@@ -33,7 +33,7 @@ public class Personal_information {
         this.titular = titular;
         this.ubication = ubication;
         this.country = country;
-        this.about = about;
+        
     }
     
 }

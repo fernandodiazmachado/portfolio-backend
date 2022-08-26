@@ -43,7 +43,6 @@ public class Personal_InformationService implements IPersonal_Information{
             personal_informationOriginal.setTitular(personal_information.getTitular());
             personal_informationOriginal.setUbication(personal_information.getUbication());
             personal_informationOriginal.setCountry(personal_information.getCountry());
-            personal_informationOriginal.setAbout(personal_information.getAbout());
             personal_informationRepo.save(personal_informationOriginal);
         }
     }
