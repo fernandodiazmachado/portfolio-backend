@@ -21,11 +21,10 @@ public class Personal_information {
     private String titular;
     private String ubication;
     private String country;
-    private String about;
     
     public Personal_information(){}
 
-    public Personal_information(Long id, String img_banner, String img_perfil, String name, String titular, String ubication, String country, String about) {
+    public Personal_information(Long id, String img_banner, String img_perfil, String name, String titular, String ubication, String country) {
         this.id = id;
         this.img_banner = img_banner;
         this.img_perfil = img_perfil;
@@ -33,7 +32,6 @@ public class Personal_information {
         this.titular = titular;
         this.ubication = ubication;
         this.country = country;
-        
     }
     
 }
