@@ -37,9 +37,12 @@ public class Personal_InformationService implements IPersonal_Information{
     public void modificarPersonal_information(Long id,Personal_information personal_information) {
         Personal_information personal_informationOriginal = buscarPersonal_information(id);
         if (personal_informationOriginal!=null){
+            personal_informationOriginal.setImg_banner(personal_information.getImg_banner());
+            personal_informationOriginal.setImg_perfil(personal_information.getImg_perfil());
             personal_informationOriginal.setName(personal_information.getName());
-            personal_informationOriginal.setPosition(personal_information.getPosition());
+            personal_informationOriginal.setTitular(personal_information.getTitular());
             personal_informationOriginal.setUbication(personal_information.getUbication());
+            personal_informationOriginal.setCountry(personal_information.getCountry());
             personal_informationOriginal.setAbout(personal_information.getAbout());
             personal_informationRepo.save(personal_informationOriginal);
         }

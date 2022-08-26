@@ -15,18 +15,24 @@ public class Personal_information {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String img_banner;
+    private String img_perfil;
     private String name;
-    private String position;
+    private String titular;
     private String ubication;
+    private String country;
     private String about;
     
     public Personal_information(){}
-    
-    public Personal_information(Long id, String name, String position, String ubication, String about){
+
+    public Personal_information(Long id, String img_banner, String img_perfil, String name, String titular, String ubication, String country, String about) {
         this.id = id;
+        this.img_banner = img_banner;
+        this.img_perfil = img_perfil;
         this.name = name;
-        this.position = position;
+        this.titular = titular;
         this.ubication = ubication;
+        this.country = country;
         this.about = about;
     }
     
