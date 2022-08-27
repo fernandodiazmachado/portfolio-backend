@@ -1,7 +1,7 @@
 # portfolio-backend
 
 ## El presente proyecto lo realizo con el fin de realizar una API que realice un CRUD a una DB.
-### El consumo de los endpoint se pueden visualiar en el proyecto frontend: `https://diaz-machado.web.app/`
+### El consumo de los endpoint se pueden visualiar en el proyecto frontend: [https://diaz-machado.web.app/](https://diaz-machado.web.app/)
 
 #### Para los métodos `GET` y `POST` se deben utilizar los siguientes endpoints:
 
@@ -16,4 +16,4 @@
 ### En el caso de `PUT` y `DEL` se debe concatenar a los anteriores endpoints el id correspondiente:
 
 Ejemplo:
-- https://portfolio-diaz.herokuapp.com/{endpoint-elegido}/`{id}`
+- https://portfolio-diaz.herokuapp.com/{endpoint-elegido}/ `{id}`
